@@ -1,30 +1,30 @@
 @font-face {
   font-family: StardosStencil;
   font-weight: 700;
-  src: url("static/StardosStencil-Bold.woff2") format("woff2"),
-    url("static/StardosStencil-Bold.woff") format("woff"),
-    url("static/StardosStencil-Bold.ttf") format("truetype");
+  src: url("StardosStencil-Bold.woff2") format("woff2"),
+    url("StardosStencil-Bold.woff") format("woff"),
+    url("StardosStencil-Bold.ttf") format("truetype");
 }
 @font-face {
     font-family: StardosStencil;
     font-weight: 400;
-    src: url("static/StardosStencil-Regular.ttf") format("woff2"),
-      url("static/StardosStencil-Regular.woff") format("woff"),
-      url("static/StardosStencil-Regular.ttf") format("truetype");
+    src: url("StardosStencil-Regular.ttf") format("woff2"),
+      url("StardosStencil-Regular.woff") format("woff"),
+      url("StardosStencil-Regular.ttf") format("truetype");
   }
 @font-face {
   font-family: Poppins;
   font-weight: 400;
-  src: url("static/Poppins-Regular.woff2") format("woff2"),
-    url("static/Poppins-Regular.woff") format("woff"),
-    url("static/Poppins-Regular.ttf") format("truetype");
+  src: url("Poppins-Regular.woff2") format("woff2"),
+    url("Poppins-Regular.woff") format("woff"),
+    url("Poppins-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: Poppins;
   font-weight: 600;
-  src: url("static/Poppins-SemiBold.ttf") format("woff2"),
-    url("static/Poppins-SemiBold.woff") format("woff"),
-    url("static/Poppins-SemiBold.ttf") format("truetype");
+  src: url("Poppins-SemiBold.ttf") format("woff2"),
+    url("Poppins-SemiBold.woff") format("woff"),
+    url("Poppins-SemiBold.ttf") format("truetype");
 }
 
 :root {
