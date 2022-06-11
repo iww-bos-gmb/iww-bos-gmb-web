@@ -6,12 +6,12 @@
     url("StardosStencil-Bold.ttf") format("truetype");
 }
 @font-face {
-    font-family: StardosStencil;
-    font-weight: 400;
-    src: url("StardosStencil-Regular.ttf") format("woff2"),
-      url("StardosStencil-Regular.woff") format("woff"),
-      url("StardosStencil-Regular.ttf") format("truetype");
-  }
+  font-family: StardosStencil;
+  font-weight: 400;
+  src: url("StardosStencil-Regular.ttf") format("woff2"),
+    url("StardosStencil-Regular.woff") format("woff"),
+    url("StardosStencil-Regular.ttf") format("truetype");
+}
 @font-face {
   font-family: Poppins;
   font-weight: 400;
@@ -30,6 +30,8 @@
 :root {
   --color-bg: #fcf6f0;
   --color-bg-dark: #242020;
+  --color-link: #fff;
+  --color-link-active: #800;
   box-sizing: border-box;
   font-family: Poppins;
   font-weight: 400;
@@ -45,8 +47,8 @@
 }
 
 body {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 h1 {
@@ -57,37 +59,45 @@ h1 {
   margin: 0;
 }
 
-header {
-    background-color: var(--color-bg-dark);
-    color: white;
-    padding-block: 2rem;
-    margin-block-end: 2rem;
+a:link,
+a:visited {
+  color: var(--color-link);
+}
+a:active {
+  color: var(--color-link-active);
 }
 
-@media screen and (max-width: 640px) {
+header {
+  background-color: var(--color-bg-dark);
+  color: white;
+  padding-block: 2rem;
+  margin-block-end: 2rem;
+}
+
+@media (max-width: 640px) {
   h1 {
     font-size: 1.8rem;
   }
 }
 
-@media screen and (max-width: 560px) {
+@media (max-width: 560px) {
   h1 {
     font-size: 1.5rem;
   }
 }
 
-@media screen and (max-width: 480px) {
-    h1 {
-      font-size: 1.2rem;
-    }
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.2rem;
   }
+}
 
 h1 > span {
   white-space: nowrap;
 }
 
 .subhead {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 nav > ul {
@@ -97,14 +107,15 @@ nav > ul {
 }
 
 nav a {
-    color: inherit;
-    padding-block: 0.5rem;
-    display: inline-block;
+  padding-block: 0.5rem;
+  display: inline-block;
 }
 
-@media screen and (min-width: 70rem) {
+@media (min-width: 70rem) {
   nav {
     position: fixed;
+    display: flex;
+    flex-direction: column;
     left: 0;
     top: 0;
     padding-block-start: 2.5rem;
@@ -112,17 +123,34 @@ nav a {
     padding-inline: 2rem;
     height: 100vh;
     background-color: var(--color-bg-dark);
+    --color-link: #fff;
+    --color-link-active: #a88;
     color: white;
   }
-  header, .content {
-      margin-inline-start: 10rem;
+  nav > ul {
+    margin-block-end: 2rem;
+  }
+
+  nav>img {
+    margin-block: auto 2rem;
+  }
+
+  header,
+  .content {
+    margin-inline-start: 10rem;
+  }
+  .black-logo {
+    display: none;
   }
 }
-@media screen and (max-width: 70rem) {
+@media (max-width: 70rem) {
   nav {
+    display: flex;
     max-width: 50rem;
     margin-inline: auto;
     padding-inline: 2rem;
+    --color-link: currentColor;
+    --color-link-active: #a88;
   }
   nav > ul {
     display: flex;
@@ -131,9 +159,19 @@ nav a {
   nav > ul > li {
     padding-inline: 1rem;
   }
+  nav > img {
+    display: none;
+  }
+
+  .black-logo {
+    display: block;
+    margin-inline: auto;
+  }
 }
 
 main {
+  --color-link: #600;
+  --color-link-active: #800;
   max-width: 50rem;
   margin-inline: auto;
   padding: 2rem;

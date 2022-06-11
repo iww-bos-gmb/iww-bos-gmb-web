@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="{{ config.extra.language_code | default(value='en-US') }}">
+  <head>
+    <meta charset="UTF-8" />
+    {%- block seo %} {%- if config.extra.title_separator %} {%- set
+    title_separator = " " ~ config.extra.title_separator ~ " " -%} {%- else %}
+    {%- set title_separator = " — " -%} {%- endif %} {%- endblock seo %}
+    <title>IWW Boston General Membership Branch</title>
+    <link
+      rel="stylesheet"
+      href="{{ get_url(path='a-new-world-in-the-shell-of-the-old.css', trailing_slash=false, cachebust=true) | safe }}"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="HandheldFriendly" content="True" />
+    <meta
+      name="description"
+      content="The I.W.W. (Industrial Workers of the World) is a member-run union for
+    all workers, a union dedicated to organizing on the job, in our
+    industries and in our communities. Join us!"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="#main" class="skip-to-link">Skip to main content</a>
+      <h1>
+        <span>Industrial Workers of the World</span>—<span>Boston</span
+        ><br /><span class="subhead">General Membership Branch</span>
+      </h1>
+    </header>
+
+
+    <nav>
+      <ul>
+        {% set root_section = get_section(path="_index.md", metadata_only=true) %}
+        <li><a href="{{ root_section.permalink }}">{{ root_section.title }}</a></li>
+        {% for subsection_name in root_section.subsections %}
+            {% set subsection = get_section(path=subsection_name, metadata_only=true) %}
+            <li><a href="{{ subsection.permalink }}">{{ subsection.title }}</a></li>
+        {% endfor %}
+      </ul>
+
+      <img src="{{ get_url(path='entitled-iww-logo-white.svg') }}" alt="IWW Seal: Labor is entitled to all it produces">
+    </nav>
+
+    <div class="content">
+      <main id="main">
+        {%- block content %} {%- endblock content %}
+      </main>
+
+      <footer>
+        <img class="black-logo" src="{{ get_url(path='entitled-iww-logo-black.svg') }}" alt="IWW Seal: Labor is entitled to all it produces">
+      </footer>
+    </div>
+  </body>
+</html>
