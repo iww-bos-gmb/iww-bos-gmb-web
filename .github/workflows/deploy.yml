@@ -33,4 +33,4 @@ jobs:
           bucket-region: us-east-2
           # dist-id: ${{ secrets.CLOUDFRONT_CDN_ID }}
           # invalidation: '/*'
-          delete-removed: true
+          # delete-removed: true
