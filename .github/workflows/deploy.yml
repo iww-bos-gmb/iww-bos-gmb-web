@@ -31,6 +31,6 @@ jobs:
           folder: public
           bucket: ${{ secrets.S3_BUCKET }}
           bucket-region: us-east-2
-          dist-id: ${{ secrets.CLOUDFRONT_CDN_ID }}
-          invalidation: '/*'
+          # dist-id: ${{ secrets.CLOUDFRONT_CDN_ID }}
+          # invalidation: '/*'
           delete-removed: true
