@@ -1,5 +1,5 @@
 # The base URL of the site; the only required configuration variable.
-base_url = "http://dinhe.net/~aredridel/2022/iww-bos-gmb-web/"
+base_url = "https://boston-iww.steve-pletcher.com/"
 
 # The site title and description; used in feeds by default.
 title = "IWW Boston General Membership Branch"
