@@ -1,8 +1,7 @@
 +++
-title="About IWW"
-sort_by = "weight"
+title = 'About IWW'
+sort_by = 'weight'
 +++
- 
 The I.W.W. (Industrial Workers of the World) is a member-run union for
 all workers, a union dedicated to organizing on the job, in our
 industries and in our communities. Here are some I.W.W. Fun Facts:
@@ -33,13 +32,13 @@ agitating around particular issues or grievances in a workplace or
 industry.
      
 The IWW in Boston, MA strives to build local and regional working
-class solidarity as a General Membership Branch of the IWW through
-organizing, advocacy, and promotion of worker’s rights.
+class solidarity as a General Membership Branch of the IWW through organizing, advocacy, and promotion of worker’s rights.
      
 Membership in the branch is by voluntary association of members in
 good standing of the Industrial Workers of the World (IWW) who reside
 or work in the Greater Boston Area and much of the Eastern half of
 Massachusetts.
 
-**If you are a worker—not an employer or member of law enforcement—you
-can join the IWW. If you are unemployed you can join the IWW!**
+**If you are a worker—not an employer or member of law enforcement—you can join the IWW. If you are unemployed you can join the IWW!**
+
+Email boston at iww.org, or [read more about joining](join) today!
