@@ -1,7 +1,7 @@
 +++
 title = 'About IWW'
 sort_by = 'weight'
-weight = 0.0
+weight = 0
 +++
 The I.W.W. (Industrial Workers of the World) is a member-run union for
 all workers, a union dedicated to organizing on the job, in our
