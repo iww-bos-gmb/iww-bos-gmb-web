@@ -6,6 +6,7 @@ backend:
 media_folder: "/content/media"
 public_folder: "/media"
 site_url: "/"
+yaml_quote: true
 collections:
   - name: "posts"
     type: "folder"
