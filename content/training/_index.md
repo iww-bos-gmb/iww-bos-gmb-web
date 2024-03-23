@@ -1,5 +1,7 @@
 +++
 title = 'Training'
-weight = 20
+weight = 20.0
 +++
 Should we mention the next OT101? Since it's open to non-members, maybe?
+
+Hmm
