@@ -35,28 +35,33 @@ collections:
         file: "content/_index.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Order", name: "weight", widget: "number"}
           - {label: "Body", name: "body", widget: "markdown"}
       - label: "Organize"
         name: "organize"
         file: "content/organize/_index.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Order", name: "weight", widget: "number"}
           - {label: "Body", name: "body", widget: "markdown"}
       - label: "Join"
         name: "join"
         file: "content/join/_index.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Order", name: "weight", widget: "number"}
           - {label: "Body", name: "body", widget: "markdown"}
       - label: "Why Join?"
         name: "join/why-join"
         file: "content/join/why-join.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Order", name: "weight", widget: "number"}
           - {label: "Body", name: "body", widget: "markdown"}
       - label: "Training"
         name: "training"
         file: "content/training/_index.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Order", name: "weight", widget: "number"}
           - {label: "Body", name: "body", widget: "markdown"}

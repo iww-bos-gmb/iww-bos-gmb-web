@@ -1,6 +1,6 @@
 +++
 title="Join"
-weight = '20'
+weight = 20
 +++
 
 # Join the IWW
