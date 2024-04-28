@@ -182,6 +182,12 @@ strong {
   font-weight: 600;
 }
 
+.round-border {
+  border-radius: 100vw;
+  border: 1px solid white;
+  margin-inline: -1.5em;
+}
+
 .skip-to-link {
   opacity: 0;
   position: absolute;
