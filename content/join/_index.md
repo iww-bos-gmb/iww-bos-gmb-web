@@ -16,7 +16,7 @@ The IWW is a union for all workers — One Big Union! Join the Boston General Me
 As long as you are a worker — not an employer — you can join the IWW. Members of other unions (except officers), students, retirees, the unemployed, the self-employed, those in informal professions, and those unable to work may also join. Learn why you should join the IWW.
 
 
-## Dues
+## D
 You select your dues level based on your self-reported current monthly income. Your first month as a member will include an initiation fee that is the equivalent of your dues rate. A breakdown of our current dues rate can be found below, as well as on page twenty-six of the IWW's constitution.
 
 * $6 — if you are financially burdened by unemployment, underemployment, being a student, or other circumstances
