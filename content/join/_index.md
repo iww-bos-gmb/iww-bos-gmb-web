@@ -7,7 +7,7 @@ weight = 20
 
 The IWW is a union for all workers — One Big Union! Join the Boston General Membership Branch today!
 
-[Join on IWW "Red Card"](https://iww.org/join)
+[Join on IWW "Red Card"](https://redcard.iww.org)
 
 [Why join the IWW?](why-join)
 
