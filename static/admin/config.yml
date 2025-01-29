@@ -42,6 +42,12 @@ collections:
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Members only page"
+        name: "members only page"
+        file: "content/encrypt_with_assets_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
       - label: "Join"
         name: "join"
         file: "content/join/_index.md"
