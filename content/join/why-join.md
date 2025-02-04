@@ -29,4 +29,4 @@ With the IWW, you also belong to a union that has a long term vision and plan fo
 -    Mutual aid and support;
 -    Some practical things: the IWW internal newsletter, access to the IWW website, the union's constitution, your local branch newsletter (if applicable) and a member button.
 
-[Join Today!]([https://iww.org/join](https://www.iww.org/membership/))
+[Join Today!](https://www.iww.org/membership/)
