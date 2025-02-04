@@ -1,3 +1,4 @@
+
 +++
 title = 'About IWW'
 sort_by = 'weight'
@@ -43,3 +44,4 @@ Massachusetts.
 **If you are a worker—not an employer or member of law enforcement—you can join the IWW. If you are unemployed you can join the IWW!**
 
 Email boston at iww.org, or [read more about joining](join) today!
+[password protected](encrypt_with_assets.yml)
