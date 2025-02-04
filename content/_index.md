@@ -12,7 +12,7 @@ industries and in our communities. Here are some I.W.W. Fun Facts:
 - There are general membership branches all around the world—Australia, 
   Germany & Austria, the United Kingdom, & China, just to name a few!
 
-We are the Industrial Workers of the World because we organize
+(Test) We are the Industrial Workers of the World because we organize
 industrially. This means we organize all workers producing the same
 goods or providing the same services into one big union, rather than
 dividing workers by skill or trade, so we can pool our strength to win
