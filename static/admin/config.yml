@@ -54,6 +54,12 @@ collections:
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Members page"
+        name: "Members page"
+        file: "content/memberspage/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
 #      - label: "Training"
 #        name: "training"
 #        file: "content/training/_index.md"
