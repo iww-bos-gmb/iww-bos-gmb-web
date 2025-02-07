@@ -54,8 +54,8 @@ collections:
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
-      - label: "Members page"
-        name: "Members page"
+      - label: "Members"
+        name: "membersonly"
         file: "content/membersonly/_index.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
