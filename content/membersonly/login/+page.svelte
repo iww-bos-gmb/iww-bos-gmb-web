@@ -5,7 +5,7 @@
     async function handleSubmit(event) {
         event.preventDefault();
 
-        const res = await fetch('/protected/login', {
+        const res = await fetch('/membersonly/login', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ password })
