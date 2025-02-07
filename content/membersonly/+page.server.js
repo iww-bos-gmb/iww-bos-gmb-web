@@ -12,7 +12,7 @@ if (userPassword !== PASSWORD)
 { throw redirect(303, '/protected/login'); // Redirect if unauthorized } 
  
 // Load Markdown file securely 
- const filePath = path.resolve('src/routes/protected/content.md'); 
+ const filePath = path.resolve('/iww-bos-gmb-web/content/membersonly/login/protected.md'); 
  const markdown = fs.readFileSync(filePath, 'utf-8'); 
  const htmlContent = marked(markdown); // Convert Markdown to HTML 
  return { content: htmlContent }; }
