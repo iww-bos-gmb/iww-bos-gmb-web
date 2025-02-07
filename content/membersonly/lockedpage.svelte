@@ -13,7 +13,7 @@
 </script>
 
 {#if isAuthenticated}
-  <h1>Welcome to the Locked Page</h1>
+  <h1>Welcome to the Memebers Only Page</h1>
   <p>This content is protected.</p>
 {:else}
   <div class="lock-screen">
