@@ -5,4 +5,4 @@ weight=0
 
 Work In Progress
 
-[Login Here](lockedpage.svelte)
+[Login Here](+page.svelte)
