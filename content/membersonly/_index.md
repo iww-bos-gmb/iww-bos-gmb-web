@@ -1,3 +1,3 @@
-+++ title = 'test' sort_by = 'weight' weight = 0 +++
++++ title = 'test' +++
 
 this is a test
