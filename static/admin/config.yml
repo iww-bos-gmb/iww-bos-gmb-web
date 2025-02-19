@@ -54,13 +54,12 @@ collections:
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
-      - label: "Members"
-        name: "membersonly"
-        file: "content/membersonly/_index.md"
+          - label: "Contact"
+        name: "Contact"
+        file: "content/contact/_indeex.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
-#      - label: "Training"
 #        name: "training"
 #        file: "content/training/_index.md"
 #        fields:
