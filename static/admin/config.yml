@@ -54,9 +54,9 @@ collections:
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
-          - label: "Contact"
+      - label: "Contact"
         name: "Contact"
-        file: "content/contact/_indeex.md"
+        file: "content/contact/_index.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
