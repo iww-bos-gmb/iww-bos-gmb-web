@@ -6,7 +6,7 @@ weight = 20
 ### Contact us
 
 ## Email
-(Boston@iww.org)[mailto:boston@iww.org]
+<a href= “mailto:boston@iww.org”></a>boston@iww.org
 
 
 ## Phone Number
