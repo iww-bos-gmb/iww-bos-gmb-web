@@ -60,9 +60,9 @@ collections:
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"} 
-      - label: "Editorial"
-        name: "Editorial"
-        file: "content/editorial/_index.md"
+      - label: "Editorials"
+        name: "Editorials"
+        file: "content/editorials/_index.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
