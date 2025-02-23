@@ -3,7 +3,10 @@ title="Editorials"
 weight = 20
 +++
 
-## Editorial 1
-<a href="https://bing.com/">
-  <button>Click Me</button>
+<a href=why-join>
+  <button>
+## Editorial
+2-23-24
+Hi this is an editorial test...
+  </button>
 </a>
