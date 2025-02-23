@@ -60,13 +60,12 @@ collections:
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"} 
-#      - label: "Editorials"
-#        name: "Editorials"
-#        file: "content/editorials/_index.md"
-#        fields:
-#          - {label: "Title", name: "title", widget: "string"}
-#          - {label: "Body", name: "body", widget: "markdown"}
-
+      - label: "Editorials"
+        name: "Editorials"
+        file: "content/editorials/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
 #        name: "training"
 #        file: "content/training/_index.md"
 #        fields:
