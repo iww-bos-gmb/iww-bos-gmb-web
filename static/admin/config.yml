@@ -65,7 +65,7 @@ collections:
         file: "content/editorials/index.html"
         fields:
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Body", name: "body", widget: "markdown"} 
 #        name: "training"
 #        file: "content/training/_index.md"
 #        fields:
