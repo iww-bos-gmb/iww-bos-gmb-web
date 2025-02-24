@@ -3,6 +3,8 @@ title="Editorials"
 weight = 20
 +++
 
+# Editorials
+
 <div class="card">
   <a href="https://example.com/article" target="_blank">
     <div class="card-image">
