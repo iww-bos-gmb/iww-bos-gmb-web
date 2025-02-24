@@ -44,17 +44,23 @@ weight = 20
 </div>
 
 <style>
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   .card {
     border: 1px solid #ddd;
     border-radius: 4px;
     overflow: hidden;
-    max-width: 300px;
     background: #fff;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    margin: 20px;
+    margin: 10px;
     font-family: Arial, sans-serif;
     text-decoration: none;
     color: inherit;
+    width: 100%;
+    max-width: 300px;
   }
   .card a {
     display: block;
@@ -91,5 +97,13 @@ weight = 20
     font-size: 0.9em;
     color: #007BFF;
     text-align: right;
+  }
+
+  /* Desktop: Two cards per row */
+  @media (min-width: 768px) {
+    .card {
+      width: calc(50% - 20px);
+      max-width: none;
+    }
   }
 </style>
