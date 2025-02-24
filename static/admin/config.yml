@@ -62,7 +62,7 @@ collections:
           - {label: "Body", name: "body", widget: "markdown"} 
       - label: "Editorials"
         name: "Editorials"
-        file: "content/editorials/_index.md"
+        file: "content/editorial/_index.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"} 
