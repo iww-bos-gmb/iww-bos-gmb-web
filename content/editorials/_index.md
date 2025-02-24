@@ -100,7 +100,7 @@ weight = 20
   }
 
   /* Desktop: Two cards per row */
-  @media (min-width: 768px) {
+  @media (min-width: 500px) {
     .card {
       width: calc(50% - 20px);
       max-width: none;
