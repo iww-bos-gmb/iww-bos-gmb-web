@@ -7,7 +7,7 @@ weight = 20
 
 
 <div class="card">
- <a href="content/editorials/ed1.md" target="_blank">
+ <a href="{{ site.baseurl }}/ed1.md">About</a>
     <div class="card-image">
       <img src="https://via.placeholder.com/300x200" alt="Example Article Title">
 </form>
