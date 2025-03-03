@@ -84,13 +84,13 @@ weight = 20
       <p class="card-summary">
         Over the past five years the tech billionaires of Silicon Valley have been pushing for the mass adoption of AI, cryptocurrency, and the everyday use of virtual reality as a replacement for in-person human interaction...
       </p>
-      <div class="card-readmore">[Read More](ed1)</div>
+      <div class="card-readmore">[Read More]</div>
     </div>
   </a>
 </div>
 
 
-
+[readmore](ed1)
 
 
 
