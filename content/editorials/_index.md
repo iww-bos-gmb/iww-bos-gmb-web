@@ -7,7 +7,8 @@ weight = 20
 
 
 <div class="card">
- <a href="content/editorials/ed1" target="_blank">
+ <a href="https://github.com/iww-bos-gmb/iww-bos-gmb-web/blob/9e16f854f1c1626c027512ca97d7bfd93db1e208/content/editorials/ed1.md" target="_blank">
+  
     <div class="card-image">
 </form>
     <div class="card-image">
