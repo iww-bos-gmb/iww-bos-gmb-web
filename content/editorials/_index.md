@@ -7,18 +7,16 @@ weight = 20
 
 
 <div class="card">
-  <a href="https://example.com/article" target="_blank">
+  <a href="AI's feudal war for your soul and how to win it" target="_blank">
     <div class="card-image">
-      <img src="https://via.placeholder.com/300x200" alt="Example Article Title">
     </div>
     <div class="card-body">
-      <div class="card-category">World News</div>
-      <h2 class="card-title">Example Article Title</h2>
+      <h2 class="card-title">AI's Feudal War for your Soul (and how to win it)</h2>
       <div class="card-meta">
-        <span class="card-date">Feb 15, 2025</span> | <span class="card-author">by Jane Doe</span>
+        <span class="card-date">March 2, 2025</span> | <span class="card-author">by Anonymous Wobbly</span>
       </div>
       <p class="card-summary">
-        This is the first sentence of the article which gives a brief preview of the content...
+        Over the past five years the tech billionaires of Silicon Valley have been pushing for the mass adoption of AI, cryptocurrency, and the everyday use of virtual reality as a replacement for in-person human interaction...
       </p>
       <div class="card-readmore">Read More</div>
     </div>
