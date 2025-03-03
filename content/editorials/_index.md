@@ -70,7 +70,7 @@ weight = 20
 </style>
 
 <div class="card">
- <a [word](ed1) target="_blank">
+ <a href="https://bostoniww.org/editorials/ed1/" target="_blank">
   
     <div class="card-image">
 </form>
