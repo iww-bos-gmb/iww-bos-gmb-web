@@ -62,7 +62,13 @@ collections:
           - {label: "Body", name: "body", widget: "markdown"} 
       - label: "Editorials"
         name: "Editorials"
-        file: "content/editorial/_index.md"
+        file: "content/editorials/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"} 
+      - label: "AI's war on us"
+        name: "ed1"
+        file: "content/editorials/ed1.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"} 
