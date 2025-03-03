@@ -7,7 +7,7 @@ weight = 20
 
 
 <div class="card">
- <a href="https://example.com/article" target="_blank">
+ <a href="content/editorials/ed1.md" target="_blank">
     <div class="card-image">
       <img src="https://via.placeholder.com/300x200" alt="Example Article Title">
 </form>
