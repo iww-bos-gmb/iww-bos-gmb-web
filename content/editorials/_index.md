@@ -7,7 +7,7 @@ weight = 20
 
 
 <div class="card">
- <a href="https://bostoniww.org">
+ <a href="https://bostoniww.org" target="_blank">
     <div class="card-image">
 </form>
     <div class="card-image">
