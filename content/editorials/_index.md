@@ -4,28 +4,6 @@ weight = 20
 +++
 
 # Editorials
-
-
-<div class="card">
- <a href="https://github.com/iww-bos-gmb/iww-bos-gmb-web/blob/9e16f854f1c1626c027512ca97d7bfd93db1e208/content/editorials/ed1.md" target="_blank">
-  
-    <div class="card-image">
-</form>
-    <div class="card-image">
-    </div>
-    <div class="card-body">
-      <h2 class="card-title">AI's Feudal War for your Soul (and how to win it)</h2>
-      <div class="card-meta">
-        <span class="card-date">March 2, 2025</span> | <span class="card-author">by Anonymous Wobbly</span>
-      </div>
-      <p class="card-summary">
-        Over the past five years the tech billionaires of Silicon Valley have been pushing for the mass adoption of AI, cryptocurrency, and the everyday use of virtual reality as a replacement for in-person human interaction...
-      </p>
-      <div class="card-readmore">Read More</div>
-    </div>
-  </a>
-</div>
-
 <style>
   .card-container {
     display: flex;
@@ -90,6 +68,28 @@ weight = 20
     }
   }
 </style>
+
+<div class="card">
+ <a [word](ed1) target="_blank">
+  
+    <div class="card-image">
+</form>
+    <div class="card-image">
+    </div>
+    <div class="card-body">
+      <h2 class="card-title">AI's Feudal War for your Soul (and how to win it)</h2>
+      <div class="card-meta">
+        <span class="card-date">March 2, 2025</span> | <span class="card-author">by Anonymous Wobbly</span>
+      </div>
+      <p class="card-summary">
+        Over the past five years the tech billionaires of Silicon Valley have been pushing for the mass adoption of AI, cryptocurrency, and the everyday use of virtual reality as a replacement for in-person human interaction...
+      </p>
+      <div class="card-readmore">Read More</div>
+    </div>
+  </a>
+</div>
+
+
 
 
 
