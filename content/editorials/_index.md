@@ -72,7 +72,6 @@ weight = 20
 <div class="card">
  <a href="https://bostoniww.org/editorials/ed1/" target="_blank">
   
-    <div class="card-image">
 </form>
     <div class="card-image">
     </div>
@@ -88,9 +87,6 @@ weight = 20
     </div>
   </a>
 </div>
-
-
-[readmore](ed1)
 
 
 
