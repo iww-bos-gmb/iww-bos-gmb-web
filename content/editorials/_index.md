@@ -7,7 +7,9 @@ weight = 20
 
 
 <div class="card">
-  <a href="content/editorials/ed1.md">
+    <form action="https://google.com">
+    <input type="submit" value="Go to Google" />
+</form>
     <div class="card-image">
     </div>
     <div class="card-body">
