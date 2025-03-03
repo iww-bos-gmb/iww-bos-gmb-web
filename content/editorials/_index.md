@@ -8,6 +8,9 @@ weight = 20
 <div class="card">
   
     </div>
+      <a href="https://example.com/article" target="_blank">
+    <div class="card-image">
+      <img src="https://via.placeholder.com/300x200" alt="Example Article Title">
     <div class="card-body">
       <div class="card-category">World News</div>
       <h2 class="card-title">AI's Feudal War for your Soul (and how to win it)</h2>
