@@ -7,7 +7,7 @@ weight = 20
 
 
 <div class="card">
-  <a href="AI's feudal war for your soul and how to win it.md" target="AI's feudal war for your soul and how to win it.md">
+  <a href="content/editorials/AI's feudal war for your soul and how to win it.md">
     <div class="card-image">
     </div>
     <div class="card-body">
