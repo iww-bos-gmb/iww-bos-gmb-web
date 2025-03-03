@@ -7,7 +7,7 @@ weight = 20
 
 
 <div class="card">
- <a href="[{{ site.baseurl }}/ed1.m](https://docs.google.com/document/d/e/2PACX-1vQDo4kN7jMzg5NjQprSdcvalY-GrMg5xu-ijxrIWHTbdHMiZpfJqQqpOHw-WgDy5yd4kxnR5VijmJVx/pub)">
+ <a href="https://docs.google.com/document/d/e/2PACX-1vQDo4kN7jMzg5NjQprSdcvalY-GrMg5xu-ijxrIWHTbdHMiZpfJqQqpOHw-WgDy5yd4kxnR5VijmJVx/pub">
     <div class="card-image">
 </form>
     <div class="card-image">
