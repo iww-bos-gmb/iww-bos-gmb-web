@@ -7,9 +7,8 @@ weight = 20
 
 
 <div class="card">
- <a href="{{ site.baseurl }}/ed1.md">About</a>
+ <a href="[{{ site.baseurl }}/ed1.m](https://docs.google.com/document/d/e/2PACX-1vQDo4kN7jMzg5NjQprSdcvalY-GrMg5xu-ijxrIWHTbdHMiZpfJqQqpOHw-WgDy5yd4kxnR5VijmJVx/pub)">
     <div class="card-image">
-      <img src="https://via.placeholder.com/300x200" alt="Example Article Title">
 </form>
     <div class="card-image">
     </div>
@@ -20,7 +19,6 @@ weight = 20
       </div>
       <p class="card-summary">
         Over the past five years the tech billionaires of Silicon Valley have been pushing for the mass adoption of AI, cryptocurrency, and the everyday use of virtual reality as a replacement for in-person human interaction...
-       [article](ed1)
       </p>
       <div class="card-readmore">Read More</div>
     </div>
