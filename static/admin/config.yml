@@ -1,4 +1,4 @@
-backend:
+1backend:
   name: "github"
   repo: "iww-bos-gmb/iww-bos-gmb-web"
   branch: "main" # Branch to update
@@ -66,8 +66,8 @@ collections:
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"} 
-      - label: "AI's war on us"
-        name: "ed1"
+      - label: "ed1"
+        name: "editorials/ed1"
         file: "content/editorials/ed1.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
