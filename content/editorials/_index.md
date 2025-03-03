@@ -7,8 +7,9 @@ weight = 20
 
 
 <div class="card">
-    <form action="https://google.com">
-  <a href="<a href="./ed1.md">" target="_blank">
+ <a href="https://example.com/article" target="_blank">
+    <div class="card-image">
+      <img src="https://via.placeholder.com/300x200" alt="Example Article Title">
 </form>
     <div class="card-image">
     </div>
