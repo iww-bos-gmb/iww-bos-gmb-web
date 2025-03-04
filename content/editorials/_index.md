@@ -14,7 +14,7 @@ weight = 20
     border: 1px solid #ddd;
     border-radius: 4px;
     overflow: hidden;
-    background: #fff;
+    background: #fcf6f0;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     margin: 10px;
     font-family: Poppins;
@@ -56,7 +56,7 @@ weight = 20
   }
   .card-readmore {
     font-size: 0.9em;
-    color: #007BFF;
+    color: #b60100;
     text-align: right;
   }
 
