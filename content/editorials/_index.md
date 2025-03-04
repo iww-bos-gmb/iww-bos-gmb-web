@@ -17,7 +17,7 @@ weight = 20
     background: #fff;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     margin: 10px;
-    font-family: Arial, sans-serif;
+    font-family: Poppins;
     text-decoration: none;
     color: inherit;
     width: 100%;
