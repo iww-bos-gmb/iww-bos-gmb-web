@@ -1,0 +1,80 @@
+1backend:
+  name: "github"
+  repo: "iww-bos-gmb/iww-bos-gmb-web"
+  branch: "main" # Branch to update
+  base_url: "https://sveltia-cms-auth.aredridel.workers.dev"
+media_folder: "/content/media"
+public_folder: "/media"
+site_url: "/"
+yaml_quote: true
+display: flex; flex-wrap: wrap
+collections:
+  - name: "posts"
+    type: "folder"
+    label: "Post"
+    create: true
+    folder: "content"
+    identifier_field: slug
+    format: toml-frontmatter
+    extension: md
+    path: '{{year}}/{{slug}}'
+    preview_path: "{{year}}/{{slug}}"
+    media_folder: "/content/media/posts"
+    public_folder: "/media/posts"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "pages"
+    label: "Pages"
+    format: toml-frontmatter
+    extension: md
+    files:
+      - label: "Home Page"
+        name: "home"
+        file: "content/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Organize"
+        name: "organize"
+        file: "content/organize/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Join"
+        name: "join"
+        file: "content/join/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Why Join?"
+        name: "join/why-join"
+        file: "content/join/why-join.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Contact"
+        name: "Contact"
+        file: "content/contact/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"} 
+      - label: "Editorials"
+        name: "Editorials"
+        file: "content/editorials/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"} 
+      - label: "ed1"
+        name: "ed1"
+        file: "content/editorials/ed1.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"} 
+#        name: "training"
+#        file: "content/training/_index.md"
+#        fields:
+#          - {label: "Title", name: "title", widget: "string"}
+#          - {label: "Body", name: "body", widget: "markdown"}
