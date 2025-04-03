@@ -88,5 +88,24 @@ weight = 20
   </a>
 </div>
 
+<div class="card">
+ <a href="https://bostoniww.org/editorials/ed2/" target="_blank">
+  
+</form>
+    <div class="card-image">
+    </div>
+    <div class="card-body">
+      <h2 class="card-title">A History of British Imperialism in Ireland</h2>
+      <div class="card-meta">
+        <span class="card-date">March 17, 2025</span> | <span class="card-author">by Anonymous Wobbly</span>
+      </div>
+      <p class="card-summary">
+       This Paddy's Day, we at the Industrial Workers of the World wanted to highlight the Irish struggle for independence against British Imperialism...
+
+      </p>
+      <div class="card-readmore">[Read More]</div>
+    </div>
+  </a>
+</div>
 
 
