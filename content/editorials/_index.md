@@ -101,7 +101,6 @@ weight = 20
       </div>
       <p class="card-summary">
        This Paddy's Day, we at the Industrial Workers of the World wanted to highlight the Irish struggle for independence against British Imperialism...
-
       </p>
       <div class="card-readmore">[Read More]</div>
     </div>
