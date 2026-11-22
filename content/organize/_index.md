@@ -12,3 +12,10 @@ You do *not* need to include the name of the business you work for, the address,
 We also take the confidential nature of any information shared seriously.
 
 Solidarity.
+
+
+<form action="https://formsubmit.co/boston@iww.org" method="POST">
+     <input type="text" name="name" required>
+     <input type="email" name="email" required>
+     <button type="submit">Send</button>
+</form>
